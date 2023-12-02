@@ -11,6 +11,31 @@
 		CE3032112B1B1856001B2F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032102B1B1856001B2F67 /* ContentView.swift */; };
 		CE3032132B1B185A001B2F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3032122B1B185A001B2F67 /* Assets.xcassets */; };
 		CE3032162B1B185A001B2F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3032152B1B185A001B2F67 /* Preview Assets.xcassets */; };
+		CE30321F2B1B18A3001B2F67 /* NavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30321E2B1B18A3001B2F67 /* NavigationProtocol.swift */; };
+		CE3032232B1B19B9001B2F67 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032222B1B19B9001B2F67 /* ViewModel.swift */; };
+		CE3032262B1B19F4001B2F67 /* ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032252B1B19F4001B2F67 /* ScreenType.swift */; };
+		CE3032282B1B1A87001B2F67 /* ProductFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032272B1B1A87001B2F67 /* ProductFamily.swift */; };
+		CE30322A2B1B1B28001B2F67 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032292B1B1B28001B2F67 /* iPhone.swift */; };
+		CE30322C2B1B1B59001B2F67 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30322B2B1B1B59001B2F67 /* Watch.swift */; };
+		CE30322E2B1B1B8F001B2F67 /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30322D2B1B1B8F001B2F67 /* Mac.swift */; };
+		CE3032302B1B1BC2001B2F67 /* IPAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30322F2B1B1BC2001B2F67 /* IPAD.swift */; };
+		CE3032322B1B1FBC001B2F67 /* Carrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032312B1B1FBC001B2F67 /* Carrier.swift */; };
+		CE3032342B1B1FCA001B2F67 /* TradeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032332B1B1FCA001B2F67 /* TradeIn.swift */; };
+		CE3032362B1B1FD5001B2F67 /* AppleCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032352B1B1FD5001B2F67 /* AppleCare.swift */; };
+		CE3032382B1B1FE2001B2F67 /* WaysToPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032372B1B1FE2001B2F67 /* WaysToPay.swift */; };
+		CE30323A2B1B20A1001B2F67 /* FlowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032392B1B20A1001B2F67 /* FlowType.swift */; };
+		CE3032412B1B21B9001B2F67 /* CarrierDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032402B1B21B9001B2F67 /* CarrierDataSource.swift */; };
+		CE3032432B1B21CE001B2F67 /* TradeInDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032422B1B21CE001B2F67 /* TradeInDataSource.swift */; };
+		CE3032452B1B21E2001B2F67 /* AppleCareDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032442B1B21E2001B2F67 /* AppleCareDataSource.swift */; };
+		CE3032472B1B21F7001B2F67 /* WaysToPayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032462B1B21F7001B2F67 /* WaysToPayDataSource.swift */; };
+		CE30324A2B1B2226001B2F67 /* CarrierRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032492B1B2226001B2F67 /* CarrierRouter.swift */; };
+		CE30324C2B1B2232001B2F67 /* TradeInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30324B2B1B2232001B2F67 /* TradeInRouter.swift */; };
+		CE30324E2B1B223D001B2F67 /* AppleCareRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30324D2B1B223D001B2F67 /* AppleCareRouter.swift */; };
+		CE3032502B1B2245001B2F67 /* WaysToPayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30324F2B1B2245001B2F67 /* WaysToPayRouter.swift */; };
+		CE3032532B1B3355001B2F67 /* CarrierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032522B1B3355001B2F67 /* CarrierView.swift */; };
+		CE3032552B1B3361001B2F67 /* TradeInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032542B1B3361001B2F67 /* TradeInView.swift */; };
+		CE3032572B1B336E001B2F67 /* AppleCareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032562B1B336E001B2F67 /* AppleCareView.swift */; };
+		CE3032592B1B337A001B2F67 /* WaysToPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3032582B1B337A001B2F67 /* WaysToPayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +44,31 @@
 		CE3032102B1B1856001B2F67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3032122B1B185A001B2F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3032152B1B185A001B2F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE30321E2B1B18A3001B2F67 /* NavigationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationProtocol.swift; sourceTree = "<group>"; };
+		CE3032222B1B19B9001B2F67 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CE3032252B1B19F4001B2F67 /* ScreenType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenType.swift; sourceTree = "<group>"; };
+		CE3032272B1B1A87001B2F67 /* ProductFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFamily.swift; sourceTree = "<group>"; };
+		CE3032292B1B1B28001B2F67 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		CE30322B2B1B1B59001B2F67 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		CE30322D2B1B1B8F001B2F67 /* Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac.swift; sourceTree = "<group>"; };
+		CE30322F2B1B1BC2001B2F67 /* IPAD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAD.swift; sourceTree = "<group>"; };
+		CE3032312B1B1FBC001B2F67 /* Carrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrier.swift; sourceTree = "<group>"; };
+		CE3032332B1B1FCA001B2F67 /* TradeIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeIn.swift; sourceTree = "<group>"; };
+		CE3032352B1B1FD5001B2F67 /* AppleCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCare.swift; sourceTree = "<group>"; };
+		CE3032372B1B1FE2001B2F67 /* WaysToPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaysToPay.swift; sourceTree = "<group>"; };
+		CE3032392B1B20A1001B2F67 /* FlowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowType.swift; sourceTree = "<group>"; };
+		CE3032402B1B21B9001B2F67 /* CarrierDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierDataSource.swift; sourceTree = "<group>"; };
+		CE3032422B1B21CE001B2F67 /* TradeInDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeInDataSource.swift; sourceTree = "<group>"; };
+		CE3032442B1B21E2001B2F67 /* AppleCareDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCareDataSource.swift; sourceTree = "<group>"; };
+		CE3032462B1B21F7001B2F67 /* WaysToPayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaysToPayDataSource.swift; sourceTree = "<group>"; };
+		CE3032492B1B2226001B2F67 /* CarrierRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierRouter.swift; sourceTree = "<group>"; };
+		CE30324B2B1B2232001B2F67 /* TradeInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeInRouter.swift; sourceTree = "<group>"; };
+		CE30324D2B1B223D001B2F67 /* AppleCareRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCareRouter.swift; sourceTree = "<group>"; };
+		CE30324F2B1B2245001B2F67 /* WaysToPayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaysToPayRouter.swift; sourceTree = "<group>"; };
+		CE3032522B1B3355001B2F67 /* CarrierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierView.swift; sourceTree = "<group>"; };
+		CE3032542B1B3361001B2F67 /* TradeInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeInView.swift; sourceTree = "<group>"; };
+		CE3032562B1B336E001B2F67 /* AppleCareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCareView.swift; sourceTree = "<group>"; };
+		CE3032582B1B337A001B2F67 /* WaysToPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaysToPayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +101,11 @@
 		CE30320D2B1B1856001B2F67 /* NavigationApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE30320E2B1B1856001B2F67 /* NavigationAppApp.swift */,
-				CE3032102B1B1856001B2F67 /* ContentView.swift */,
-				CE3032122B1B185A001B2F67 /* Assets.xcassets */,
+				CE3032512B1B3338001B2F67 /* Views */,
+				CE30321C2B1B186F001B2F67 /* View Model */,
+				CE3032242B1B19DF001B2F67 /* Models */,
+				CE30321D2B1B188B001B2F67 /* Protocols */,
+				CE30325A2B1B4438001B2F67 /* Resources */,
 				CE3032142B1B185A001B2F67 /* Preview Content */,
 			);
 			path = NavigationApp;
@@ -65,6 +117,109 @@
 				CE3032152B1B185A001B2F67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE30321C2B1B186F001B2F67 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032222B1B19B9001B2F67 /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CE30321D2B1B188B001B2F67 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE30321E2B1B18A3001B2F67 /* NavigationProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE3032242B1B19DF001B2F67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032482B1B2212001B2F67 /* Routers */,
+				CE30323E2B1B2196001B2F67 /* Datasource */,
+				CE30323B2B1B2162001B2F67 /* Enum */,
+				CE30323C2B1B2170001B2F67 /* Products */,
+				CE30323D2B1B2186001B2F67 /* Flows */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE30323B2B1B2162001B2F67 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032252B1B19F4001B2F67 /* ScreenType.swift */,
+				CE3032392B1B20A1001B2F67 /* FlowType.swift */,
+				CE3032272B1B1A87001B2F67 /* ProductFamily.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		CE30323C2B1B2170001B2F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032292B1B1B28001B2F67 /* iPhone.swift */,
+				CE30322B2B1B1B59001B2F67 /* Watch.swift */,
+				CE30322D2B1B1B8F001B2F67 /* Mac.swift */,
+				CE30322F2B1B1BC2001B2F67 /* IPAD.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		CE30323D2B1B2186001B2F67 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032312B1B1FBC001B2F67 /* Carrier.swift */,
+				CE3032332B1B1FCA001B2F67 /* TradeIn.swift */,
+				CE3032352B1B1FD5001B2F67 /* AppleCare.swift */,
+				CE3032372B1B1FE2001B2F67 /* WaysToPay.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		CE30323E2B1B2196001B2F67 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032402B1B21B9001B2F67 /* CarrierDataSource.swift */,
+				CE3032422B1B21CE001B2F67 /* TradeInDataSource.swift */,
+				CE3032442B1B21E2001B2F67 /* AppleCareDataSource.swift */,
+				CE3032462B1B21F7001B2F67 /* WaysToPayDataSource.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		CE3032482B1B2212001B2F67 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032492B1B2226001B2F67 /* CarrierRouter.swift */,
+				CE30324B2B1B2232001B2F67 /* TradeInRouter.swift */,
+				CE30324D2B1B223D001B2F67 /* AppleCareRouter.swift */,
+				CE30324F2B1B2245001B2F67 /* WaysToPayRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		CE3032512B1B3338001B2F67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3032102B1B1856001B2F67 /* ContentView.swift */,
+				CE3032522B1B3355001B2F67 /* CarrierView.swift */,
+				CE3032542B1B3361001B2F67 /* TradeInView.swift */,
+				CE3032562B1B336E001B2F67 /* AppleCareView.swift */,
+				CE3032582B1B337A001B2F67 /* WaysToPayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE30325A2B1B4438001B2F67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE30320E2B1B1856001B2F67 /* NavigationAppApp.swift */,
+				CE3032122B1B185A001B2F67 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +292,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE30324A2B1B2226001B2F67 /* CarrierRouter.swift in Sources */,
+				CE3032572B1B336E001B2F67 /* AppleCareView.swift in Sources */,
+				CE3032322B1B1FBC001B2F67 /* Carrier.swift in Sources */,
+				CE30324C2B1B2232001B2F67 /* TradeInRouter.swift in Sources */,
+				CE3032452B1B21E2001B2F67 /* AppleCareDataSource.swift in Sources */,
+				CE30324E2B1B223D001B2F67 /* AppleCareRouter.swift in Sources */,
+				CE3032592B1B337A001B2F67 /* WaysToPayView.swift in Sources */,
+				CE3032302B1B1BC2001B2F67 /* IPAD.swift in Sources */,
+				CE3032232B1B19B9001B2F67 /* ViewModel.swift in Sources */,
+				CE3032472B1B21F7001B2F67 /* WaysToPayDataSource.swift in Sources */,
+				CE30323A2B1B20A1001B2F67 /* FlowType.swift in Sources */,
+				CE3032262B1B19F4001B2F67 /* ScreenType.swift in Sources */,
+				CE3032412B1B21B9001B2F67 /* CarrierDataSource.swift in Sources */,
+				CE30322A2B1B1B28001B2F67 /* iPhone.swift in Sources */,
+				CE3032552B1B3361001B2F67 /* TradeInView.swift in Sources */,
+				CE3032362B1B1FD5001B2F67 /* AppleCare.swift in Sources */,
+				CE30321F2B1B18A3001B2F67 /* NavigationProtocol.swift in Sources */,
+				CE3032282B1B1A87001B2F67 /* ProductFamily.swift in Sources */,
+				CE3032342B1B1FCA001B2F67 /* TradeIn.swift in Sources */,
+				CE3032532B1B3355001B2F67 /* CarrierView.swift in Sources */,
+				CE30322E2B1B1B8F001B2F67 /* Mac.swift in Sources */,
+				CE3032502B1B2245001B2F67 /* WaysToPayRouter.swift in Sources */,
 				CE3032112B1B1856001B2F67 /* ContentView.swift in Sources */,
+				CE3032432B1B21CE001B2F67 /* TradeInDataSource.swift in Sources */,
+				CE30322C2B1B1B59001B2F67 /* Watch.swift in Sources */,
 				CE30320F2B1B1856001B2F67 /* NavigationAppApp.swift in Sources */,
+				CE3032382B1B1FE2001B2F67 /* WaysToPay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
