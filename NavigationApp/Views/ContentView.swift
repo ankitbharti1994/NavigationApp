@@ -16,7 +16,7 @@ struct ContentView: View {
             List {
                 ForEach(viewModel.supportedProductFamily, id: \.name) { product in
                     Button {
-                        self.viewModel.selectedFamily = product
+                        self.viewModel.updateSelectedProduct(product)
                         self.shouldMove = true
                     } label: {
                         Text(product.name.rawValue)

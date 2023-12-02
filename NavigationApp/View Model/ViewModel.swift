@@ -9,7 +9,7 @@ import Foundation
 
 class ViewModel: ObservableObject {
     private(set) var supportedProductFamily: [ProductFamilyProtocol]
-    var selectedFamily: ProductFamilyProtocol?
+    private var selectedFamily: ProductFamilyProtocol?
     var currentScreenForSelectedFamily: (any FlowDataSourceRouterProtocol)?
     
     init(supportedProductFamily: [ProductFamilyProtocol]) {
